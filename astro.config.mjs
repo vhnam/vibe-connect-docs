@@ -4,6 +4,12 @@ import starlight from "@astrojs/starlight";
 import starlightThemeNova from "starlight-theme-nova";
 
 export default defineConfig({
+  redirects: {
+    "/": {
+      status: 302,
+      destination: "/en",
+    },
+  },
   integrations: [
     starlight({
       plugins: [starlightThemeNova()],
