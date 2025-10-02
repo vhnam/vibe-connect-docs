@@ -11,9 +11,11 @@ title: Kịch Bản Sử Dụng
 ## 1. Xác thực & Quản lý Tài khoản
 
 ### UC-01: Đăng ký Tài khoản Người dùng
+
 **Tác nhân:** Người dùng mới (Maya/Liam)
 **Điều kiện Tiên quyết:** Người dùng chưa đăng ký trước đây
 **Luồng Chính:**
+
 1. Người dùng mở ứng dụng web VibeConnect
 2. Người dùng nhấp vào "Đăng ký"
 3. Người dùng nhập email và mật khẩu
@@ -24,6 +26,7 @@ title: Kịch Bản Sử Dụng
 8. Hệ thống tạo tài khoản và đăng nhập cho người dùng
 
 **Luồng Thay thế:**
+
 - 3a. Người dùng chọn "Đăng ký bằng Google/Apple"
 - 3b. Hệ thống xác thực qua OAuth
 - 3c. Tiếp tục đến bước 7
@@ -33,9 +36,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-02: Thiết lập Tài khoản Giám hộ
+
 **Tác nhân:** Phụ huynh (David/Sarah)
 **Điều kiện Tiên quyết:** Phụ huynh đã đăng ký tài khoản
 **Luồng Chính:**
+
 1. Phụ huynh điều hướng đến cài đặt "Chế độ Giám hộ"
 2. Phụ huynh nhấp vào "Liên kết Tài khoản Con"
 3. Hệ thống tạo mã ghép nối duy nhất
@@ -48,6 +53,7 @@ title: Kịch Bản Sử Dụng
 10. Phụ huynh có quyền truy cập vào Bảng điều khiển Giám hộ
 
 **Luồng Thay thế:**
+
 - 8a. Con từ chối - hệ thống thông báo cho phụ huynh, không tạo liên kết
 
 **Điều kiện hậu kiểm:** Tài khoản phụ huynh-con được liên kết, Chế độ Giám hộ hoạt động
@@ -55,9 +61,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-03: Đăng nhập Người dùng
+
 **Tác nhân:** Người dùng đã đăng ký
 **Điều kiện Tiên quyết:** Người dùng có tài khoản hợp lệ
 **Luồng Chính:**
+
 1. Người dùng mở ứng dụng
 2. Người dùng nhập email/tên người dùng và mật khẩu
 3. Hệ thống xác thực thông tin đăng nhập
@@ -65,6 +73,7 @@ title: Kịch Bản Sử Dụng
 5. Người dùng được đăng nhập, chuyển hướng đến nguồn cấp dữ liệu ảnh
 
 **Luồng Thay thế:**
+
 - 3a. Thông tin đăng nhập không hợp lệ - hiển thị thông báo lỗi
 - 2a. Người dùng nhấp vào "Quên mật khẩu" - kích hoạt luồng đặt lại mật khẩu
 
@@ -75,9 +84,11 @@ title: Kịch Bản Sử Dụng
 ## 2. Chụp và Chia sẻ Ảnh
 
 ### UC-04: Chụp và Gửi Ảnh (Tính năng Cốt lõi)
+
 **Tác nhân:** Người dùng Teen (Maya)
 **Điều kiện Tiên quyết:** Người dùng đã đăng nhập, có ít nhất 1 người bạn
 **Luồng Chính:**
+
 1. Người dùng nhấp vào biểu tượng máy ảnh trên màn hình chính
 2. Trình duyệt yêu cầu quyền truy cập máy ảnh (nếu là lần đầu)
 3. Người dùng cấp quyền truy cập máy ảnh
@@ -97,6 +108,7 @@ title: Kịch Bản Sử Dụng
 17. Người dùng quay lại nguồn cấp dữ liệu ảnh
 
 **Luồng Thay thế:**
+
 - 2a. Người dùng từ chối quyền truy cập máy ảnh - hiển thị nút "Sử dụng Tải lên Tệp"
 - 2b. Người dùng chọn ảnh từ thư viện thay thế
 - 13a. Tải lên thất bại (lỗi mạng) - hiển thị nút thử lại, xếp hàng cho việc thử lại nền
@@ -108,9 +120,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-05: Xem Nguồn cấp dữ liệu Ảnh
+
 **Tác nhân:** Bất kỳ Người dùng nào
 **Điều kiện Tiên quyết:** Người dùng đã đăng nhập
 **Luồng Chính:**
+
 1. Người dùng mở ứng dụng hoặc điều hướng đến nguồn cấp dữ liệu chính
 2. Hệ thống tải 20 ảnh gần đây nhất từ tất cả các vòng kết nối bạn bè
 3. Hệ thống hiển thị ảnh theo thứ tự thời gian đảo ngược
@@ -124,6 +138,7 @@ title: Kịch Bản Sử Dụng
 6. Hệ thống tải 20 ảnh tiếp theo (cuộn vô hạn)
 
 **Luồng Thay thế:**
+
 - 2a. Chưa có ảnh nào - hiển thị trạng thái trống với thông báo "Gửi Vibe đầu tiên của bạn!"
 - 6a. Người dùng đạt đến cuối ảnh - hiển thị "Bạn đã xem hết"
 
@@ -132,9 +147,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-06: Xem Ảnh với Vị trí trên Bản đồ
+
 **Tác nhân:** Bất kỳ Người dùng nào (đặc biệt là Chloe)
 **Điều kiện Tiên quyết:** Người dùng đang xem ảnh đã bật vị trí
 **Luồng Chính:**
+
 1. Người dùng nhấp vào huy hiệu vị trí trên ảnh
 2. Hệ thống mở cửa sổ Bản đồ Vị trí
 3. Hệ thống hiển thị bản đồ Mapbox tập trung vào vị trí ảnh
@@ -146,6 +163,7 @@ title: Kịch Bản Sử Dụng
 9. Người dùng đóng cửa sổ bản đồ
 
 **Luồng Thay thế:**
+
 - 1a. Ảnh không có vị trí - không hiển thị huy hiệu
 - 6a. Người dùng đã tắt chia sẻ vị trí - chỉ hiển thị vị trí của ảnh này
 
@@ -154,9 +172,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-07: Nhận Thông báo Ảnh Thời gian Thực
+
 **Tác nhân:** Thành viên Vòng kết nối Bạn bè
 **Điều kiện Tiên quyết:** Người dùng ở trong vòng kết nối bạn bè, đã bật thông báo
 **Luồng Chính:**
+
 1. Người dùng khác gửi ảnh đến vòng kết nối được chia sẻ
 2. Hệ thống kích hoạt thông báo thời gian thực qua:
    - **Nếu ứng dụng đang mở:** Cập nhật WebSocket/Supabase Realtime
@@ -170,6 +190,7 @@ title: Kịch Bản Sử Dụng
 6. Ảnh mới có hoạt ảnh nổi bật nhẹ
 
 **Luồng Thay thế:**
+
 - Người dùng đã tắt thông báo - không gửi thông báo đẩy, nhưng ảnh xuất hiện trong nguồn cấp dữ liệu khi họ mở ứng dụng
 
 **Điều kiện hậu kiểm:** Người dùng biết về ảnh mới, có thể xem ngay lập tức
@@ -179,9 +200,11 @@ title: Kịch Bản Sử Dụng
 ## 3. Quản lý Vòng kết nối Bạn bè
 
 ### UC-08: Mời Bạn bè qua Mã QR
+
 **Tác nhân:** Người dùng (Maya)
 **Điều kiện Tiên quyết:** Người dùng đã đăng nhập
 **Luồng Chính:**
+
 1. Người dùng điều hướng đến màn hình "Thêm Bạn bè"
 2. Người dùng nhấp vào "Chia sẻ Mã QR"
 3. Hệ thống tạo mã QR duy nhất chứa ID người dùng
@@ -201,6 +224,7 @@ title: Kịch Bản Sử Dụng
 17. Cả hai người dùng hiện có thể chia sẻ ảnh với nhau
 
 **Luồng Thay thế:**
+
 - 14a. Người dùng nhấp vào "Từ chối" - yêu cầu bị xóa, bạn bè được thông báo
 
 **Điều kiện hậu kiểm:** Người dùng được kết nối như bạn bè
@@ -208,9 +232,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-09: Mời Bạn bè qua Liên kết
+
 **Tác nhân:** Người dùng (Liam)
 **Điều kiện Tiên quyết:** Người dùng đã đăng nhập
 **Luồng Chính:**
+
 1. Người dùng điều hướng đến "Thêm Bạn bè"
 2. Người dùng nhấp vào "Chia sẻ Liên kết Mời"
 3. Hệ thống tạo URL mời duy nhất (ví dụ: vibeconnect.app/invite/abc123)
@@ -226,9 +252,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-10: Tạo Vòng kết nối Bạn bè
+
 **Tác nhân:** Người dùng
 **Điều kiện Tiên quyết:** Người dùng có ít nhất 2 người bạn
 **Luồng Chính:**
+
 1. Người dùng điều hướng đến "Vòng kết nối Bạn bè"
 2. Người dùng nhấp vào "Tạo Vòng kết nối Mới"
 3. Người dùng nhập tên vòng kết nối (ví dụ: "Hội bạn thân", "Gia đình")
@@ -240,6 +268,7 @@ title: Kịch Bản Sử Dụng
 9. Người dùng hiện có thể gửi ảnh đến vòng kết nối cụ thể này
 
 **Luồng Thay thế:**
+
 - 5a. Người dùng cố gắng thêm > 20 người bạn - hiển thị lỗi "Giới hạn vòng kết nối là 20 thành viên"
 
 **Điều kiện hậu kiểm:** Vòng kết nối bạn bè mới được tạo
@@ -247,9 +276,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-11: Xóa Bạn bè
+
 **Tác nhân:** Người dùng
 **Điều kiện Tiên quyết:** Người dùng có tình bạn hiện có
 **Luồng Chính:**
+
 1. Người dùng điều hướng đến hồ sơ của bạn bè
 2. Người dùng nhấp vào menu "Tùy chọn"
 3. Người dùng nhấp vào "Xóa Bạn bè"
@@ -267,9 +298,11 @@ title: Kịch Bản Sử Dụng
 ## 4. Vị trí & Quyền riêng tư
 
 ### UC-12: Bật Chia sẻ Vị trí
+
 **Tác nhân:** Người dùng (Chloe)
 **Điều kiện Tiên quyết:** Người dùng đã đăng nhập, vị trí hiện đang bị tắt
 **Luồng Chính:**
+
 1. Người dùng điều hướng đến Cài đặt → Quyền riêng tư → Vị trí
 2. Người dùng thấy "Chia sẻ Vị trí: TẮT"
 3. Người dùng nhấp vào nút bật/tắt để bật
@@ -281,6 +314,7 @@ title: Kịch Bản Sử Dụng
 9. Từ giờ trở đi, ảnh sẽ bao gồm dữ liệu vị trí
 
 **Luồng Thay thế:**
+
 - 7a. Người dùng từ chối quyền trình duyệt - hiển thị hướng dẫn để bật trong cài đặt trình duyệt
 
 **Điều kiện hậu kiểm:** Chia sẻ vị trí được bật cho các ảnh trong tương lai
@@ -288,9 +322,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-13: Xem Lịch sử Vị trí trên Bản đồ
+
 **Tác nhân:** Người dùng (Chloe)
 **Điều kiện Tiên quyết:** Người dùng đã gửi ảnh đã bật vị trí
 **Luồng Chính:**
+
 1. Người dùng điều hướng đến "Bản đồ Vị trí của Tôi"
 2. Hệ thống tải tất cả ảnh của người dùng có dữ liệu vị trí
 3. Hệ thống hiển thị bản đồ Mapbox với các điểm đánh dấu cho từng vị trí ảnh
@@ -307,9 +343,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-14: Điều chỉnh Mức độ Quyền riêng tư Vị trí
+
 **Tác nhân:** Người dùng quan tâm đến quyền riêng tư (Liam)
 **Điều kiện Tiên quyết:** Chia sẻ vị trí đã được bật
 **Luồng Chính:**
+
 1. Người dùng điều hướng đến Cài đặt → Quyền riêng tư → Vị trí
 2. Người dùng thấy menu thả xuống "Độ chính xác Vị trí"
 3. Người dùng chọn từ các tùy chọn:
@@ -327,9 +365,11 @@ title: Kịch Bản Sử Dụng
 ## 5. Chế độ Giám hộ & Kiểm soát của Phụ huynh
 
 ### UC-15: Đặt Giới hạn Thời gian Hàng ngày (Kịch bản của Sarah)
+
 **Tác nhân:** Phụ huynh (Sarah)
 **Điều kiện Tiên quyết:** Tài khoản giám hộ-con được liên kết
 **Luồng Chính:**
+
 1. Phụ huynh đăng nhập vào Bảng điều khiển Giám hộ
 2. Phụ huynh điều hướng đến "Kiểm soát Thời gian Sử dụng Màn hình"
 3. Phụ huynh thấy số liệu thống kê sử dụng hiện tại của con
@@ -344,6 +384,7 @@ title: Kịch Bản Sử Dụng
 12. Con thấy thông báo: "Đã đạt giới hạn hàng ngày. Vui lòng thử lại vào ngày mai."
 
 **Luồng Thay thế:**
+
 - 11a. Phụ huynh nhận được thông báo khi con đạt giới hạn
 
 **Điều kiện hậu kiểm:** Giới hạn thời gian hàng ngày được thực thi
@@ -351,9 +392,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-16: Lên lịch Thời gian Ngừng hoạt động (Kịch bản của David)
+
 **Tác nhân:** Phụ huynh (David)
 **Điều kiện Tiên quyết:** Tài khoản giám hộ-con được liên kết
 **Luồng Chính:**
+
 1. Phụ huynh điều hướng đến Bảng điều khiển Giám hộ → Thời gian Ngừng hoạt động
 2. Phụ huynh nhấp vào "Thêm Lịch trình Thời gian Ngừng hoạt động"
 3. Phụ huynh cấu hình:
@@ -369,6 +412,7 @@ title: Kịch Bản Sử Dụng
 10. Ứng dụng hiển thị: "Thời gian ngừng hoạt động đang hoạt động. Có sẵn lại lúc 7:00 sáng."
 
 **Luồng Thay thế:**
+
 - Phụ huynh có thể tạo nhiều lịch trình (ngày thường so với cuối tuần)
 
 **Điều kiện hậu kiểm:** Lịch trình thời gian ngừng hoạt động được thực thi
@@ -376,9 +420,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-17: Kích hoạt Cảnh báo Từ khóa (Nhu cầu Chính của David)
+
 **Tác nhân:** Phụ huynh (David) + Con (Maya)
 **Điều kiện Tiên quyết:** Chế độ Giám hộ hoạt động, cảnh báo từ khóa được bật
 **Luồng Chính:**
+
 1. Maya nhận ảnh có chú thích chứa từ khóa bị gắn cờ (ví dụ: "ghét bản thân")
 2. Bộ quét từ khóa của hệ thống phát hiện cụm từ nhạy cảm
 3. Hệ thống phân loại mức độ nghiêm trọng: "CAO" (lo ngại về sức khỏe tâm thần)
@@ -403,6 +449,7 @@ title: Kịch Bản Sử Dụng
 13. Hệ thống ghi lại hành động xem xét của David
 
 **Luồng Thay thế:**
+
 - 2a. Từ khóa có mức độ nghiêm trọng thấp (ví dụ: "trốn học") - chỉ gửi email, không gửi thông báo đẩy
 
 **Điều kiện hậu kiểm:** Phụ huynh được cảnh báo về mối lo ngại tiềm ẩn, có thể hành động
@@ -410,9 +457,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-18: Xem Báo cáo Hoạt động
+
 **Tác nhân:** Phụ huynh (David/Sarah)
 **Điều kiện Tiên quyết:** Chế độ Giám hộ hoạt động
 **Luồng Chính:**
+
 1. Phụ huynh điều hướng đến Bảng điều khiển Giám hộ → Báo cáo Hoạt động
 2. Hệ thống hiển thị tóm tắt hàng tuần:
    - Tổng thời gian sử dụng ứng dụng: 7,5 giờ
@@ -432,9 +481,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-19: Con xem Nhật ký Minh bạch của Giám hộ
+
 **Tác nhân:** Teen (Maya)
 **Điều kiện Tiên quyết:** Chế độ Giám hộ hoạt động trên tài khoản
 **Luồng Chính:**
+
 1. Maya điều hướng đến Cài đặt → Chế độ Giám hộ
 2. Maya thấy "Phụ huynh của bạn [David] đang giám sát tài khoản của bạn"
 3. Maya nhấp vào "Xem Những gì Họ có thể Thấy"
@@ -459,9 +510,11 @@ title: Kịch Bản Sử Dụng
 ## 6. Quyền riêng tư & Quản lý Dữ liệu
 
 ### UC-20: Xóa Ảnh Tự động (Nhu cầu Cốt lõi của Liam)
+
 **Tác nhân:** Hệ thống (tự động)
 **Điều kiện Tiên quyết:** Ảnh đã ở trong hệ thống được 72 giờ
 **Luồng Chính:**
+
 1. Tác vụ định kỳ nền chạy 6 giờ một lần
 2. Hệ thống truy vấn cơ sở dữ liệu để tìm ảnh có `expires_at < NOW()`
 3. Hệ thống tìm thấy ảnh đã hết hạn
@@ -474,6 +527,7 @@ title: Kịch Bản Sử Dụng
    - "Ảnh của bạn từ 3 ngày trước sẽ bị xóa trong 1 giờ nữa"
 
 **Luồng Thay thế:**
+
 - Người dùng có thể tự xóa ảnh của mình trước khi hết hạn
 
 **Điều kiện hậu kiểm:** Ảnh được tự động xóa sau 48-72 giờ
@@ -481,9 +535,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-21: Tải xuống Dữ liệu Cá nhân (Tuân thủ GDPR)
+
 **Tác nhân:** Người dùng (Liam)
 **Điều kiện Tiên quyết:** Người dùng đã đăng nhập
 **Luồng Chính:**
+
 1. Người dùng điều hướng đến Cài đặt → Quyền riêng tư → Tải xuống Dữ liệu
 2. Người dùng nhấp vào "Yêu cầu Dữ liệu của Tôi"
 3. Hệ thống hiển thị: "Chúng tôi sẽ gửi email cho bạn một liên kết tải xuống trong vòng 24 giờ"
@@ -503,9 +559,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-22: Xóa Tài khoản Vĩnh viễn
+
 **Tác nhân:** Người dùng
 **Điều kiện Tiên quyết:** Người dùng đã đăng nhập
 **Luồng Chính:**
+
 1. Người dùng điều hướng đến Cài đặt → Tài khoản → Xóa Tài khoản
 2. Hệ thống hiển thị cảnh báo: "Thao tác này sẽ xóa vĩnh viễn tất cả dữ liệu của bạn"
 3. Người dùng nhấp vào "Tôi hiểu, xóa tài khoản của tôi"
@@ -529,9 +587,11 @@ title: Kịch Bản Sử Dụng
 ## 7. Thanh toán & Đăng ký
 
 ### UC-23: Đăng ký Gói Cao cấp Chế độ Giám hộ
+
 **Tác nhân:** Phụ huynh (David)
 **Điều kiện Tiên quyết:** Phụ huynh có tài khoản miễn phí, tài khoản con được liên kết
 **Luồng Chính:**
+
 1. Phụ huynh thấy lời nhắc "Nâng cấp lên Cao cấp" trong Bảng điều khiển Giám hộ
 2. Phụ huynh nhấp vào "Nâng cấp"
 3. Hệ thống hiển thị trang giá:
@@ -548,6 +608,7 @@ title: Kịch Bản Sử Dụng
 12. Sau 14 ngày, khoản thanh toán đầu tiên được tính tự động
 
 **Luồng Thay thế:**
+
 - 8a. Thanh toán bị từ chối - hiển thị lỗi, yêu cầu phương thức thanh toán khác
 
 **Điều kiện hậu kiểm:** Phụ huynh đăng ký Cao cấp, thời gian dùng thử bắt đầu
@@ -555,9 +616,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-24: Đăng ký Tiện ích bổ sung Gia đình
+
 **Tác nhân:** Phụ huynh (Sarah)
 **Điều kiện Tiên quyết:** Phụ huynh có Gói Cao cấp Chế độ Giám hộ
 **Luồng Chính:**
+
 1. Sarah thấy lời mời chào "Kết nối với Bà" trong bảng điều khiển
 2. Sarah nhấp vào "Thêm Tiện ích bổ sung Gia đình (+4,99 đô la/tháng)"
 3. Hệ thống giải thích lợi ích của Tiện ích bổ sung Gia đình:
@@ -576,9 +639,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-25: Hủy Đăng ký
+
 **Tác nhân:** Phụ huynh
 **Điều kiện Tiên quyết:** Đăng ký trả phí đang hoạt động
 **Luồng Chính:**
+
 1. Phụ huynh điều hướng đến Cài đặt → Thanh toán
 2. Phụ huynh nhấp vào "Hủy Đăng ký"
 3. Hệ thống hiển thị đề nghị giữ chân: "Giảm 20% nếu bạn ở lại"
@@ -592,6 +657,7 @@ title: Kịch Bản Sử Dụng
 8. Phụ huynh thấy: "Gói Cao cấp hoạt động đến hết ngày 31 tháng 12. Không tính phí thêm."
 
 **Luồng Thay thế:**
+
 - Phụ huynh chấp nhận đề nghị giữ chân - đăng ký tiếp tục với chiết khấu
 
 **Điều kiện hậu kiểm:** Đăng ký bị hủy, quyền truy cập vẫn còn cho đến khi kỳ hạn kết thúc
@@ -601,9 +667,11 @@ title: Kịch Bản Sử Dụng
 ## 8. Chế độ Chỉ xem (Giai đoạn 2 - Flutter)
 
 ### UC-26: Thiết lập Chế độ Chỉ xem cho Người dùng Lớn tuổi
+
 **Tác nhân:** Phụ huynh (David) thiết lập cho Bà Chen
 **Điều kiện Tiên quyết:** Tiện ích bổ sung Gia đình hoạt động, có thiết bị máy tính bảng/khung ảnh thông minh
 **Luồng Chính:**
+
 1. David đăng nhập vào VibeConnect trên máy tính bảng của Bà
 2. David điều hướng đến Cài đặt → Chế độ Chỉ xem
 3. David nhấp vào "Bật Chế độ Chỉ xem"
@@ -623,6 +691,7 @@ title: Kịch Bản Sử Dụng
 10. Không cần tương tác
 
 **Luồng Thay thế:**
+
 - David có thể cấu hình từ xa cài đặt Chỉ xem từ điện thoại của mình
 
 **Điều kiện hậu kiểm:** Chế độ Chỉ xem hoạt động, Bà có thể xem ảnh một cách thụ động
@@ -630,9 +699,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-27: Người dùng Lớn tuổi Kích hoạt SOS
+
 **Tác nhân:** Bà Chen
 **Điều kiện Tiên quyết:** Chế độ Chỉ xem hoạt động với SOS được bật
 **Luồng Chính:**
+
 1. Bà Chen cảm thấy không khỏe/không an toàn
 2. Bà nhấn nút SOS lớn màu đỏ
 3. Hệ thống hiển thị xác nhận: "Gửi cảnh báo khẩn cấp đến David?"
@@ -656,9 +727,11 @@ title: Kịch Bản Sử Dụng
 ## 9. Thông báo & Tương tác
 
 ### UC-28: Nhận Lời nhắc Ảnh Hàng ngày
+
 **Tác nhân:** Người dùng (Maya)
 **Điều kiện Tiên quyết:** Người dùng chưa gửi ảnh hôm nay
 **Luồng Chính:**
+
 1. Hệ thống kiểm tra lúc 18:00 hàng ngày đối với người dùng chưa gửi ảnh nào hôm nay
 2. Hệ thống gửi thông báo đẩy đến Maya:
    - "Bạn bè của bạn đang đợi Vibe của bạn! 📸"
@@ -671,9 +744,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-29: Lời nhắc Sinh nhật Bạn bè
+
 **Tác nhân:** Người dùng
 **Điều kiện Tiên quyết:** Bạn bè có sinh nhật trong hồ sơ, ngày là hôm nay
 **Luồng Chính:**
+
 1. Hệ thống kiểm tra sinh nhật lúc 09:00 hàng ngày
 2. Hệ thống tìm thấy bạn bè có sinh nhật hôm nay
 3. Hệ thống gửi thông báo:
@@ -688,9 +763,11 @@ title: Kịch Bản Sử Dụng
 ## 10. Xử lý Lỗi & Trường hợp Đặc biệt
 
 ### UC-30: Xử lý Lỗi Mạng trong khi Tải lên
+
 **Tác nhân:** Người dùng (Chloe đi du lịch)
 **Điều kiện Tiên quyết:** Người dùng đã chụp ảnh, kết nối mạng kém
 **Luồng Chính:**
+
 1. Chloe chụp ảnh và nhấp vào "Gửi"
 2. Tải lên bắt đầu nhưng kết nối mạng bị ngắt
 3. Hệ thống phát hiện lỗi tải lên
@@ -703,6 +780,7 @@ title: Kịch Bản Sử Dụng
 9. Tải lên hoàn tất thành công
 
 **Luồng Thay thế:**
+
 - Hệ thống tự động thử lại trong nền sau 30 giây
 
 **Điều kiện hậu kiểm:** Ảnh cuối cùng được tải lên mặc dù có sự cố mạng
@@ -710,9 +788,11 @@ title: Kịch Bản Sử Dụng
 ---
 
 ### UC-31: Xử lý Khẩn cấp Ghi đè Giới hạn Thời gian
+
 **Tác nhân:** Teen (Maya) + Phụ huynh (David)
 **Điều kiện Tiên quyết:** Đã đạt giới hạn thời gian hàng ngày, ứng dụng bị khóa
 **Luồng Chính:**
+
 1. Maya đạt giới hạn hàng ngày, ứng dụng bị khóa
 2. Maya cần phối hợp đón khẩn cấp với bạn bè
 3. Maya nhấp vào "Yêu cầu Truy cập Khẩn cấp"
@@ -727,6 +807,7 @@ title: Kịch Bản Sử Dụng
 11. Sau 15 phút, ứng dụng khóa lại
 
 **Luồng Thay thế:**
+
 - David từ chối yêu cầu - Maya thấy thông báo "Yêu cầu bị từ chối"
 
 **Điều kiện hậu kiểm:** Quyền truy cập tạm thời được cấp cho trường hợp khẩn cấp thực sự
@@ -736,6 +817,7 @@ title: Kịch Bản Sử Dụng
 ## Tóm tắt Kịch bản Sử dụng theo Persona
 
 ### Maya (Người tìm kiếm sự thân mật) - Các Kịch bản Sử dụng Chính
+
 - UC-04: Chụp và Gửi Ảnh ⭐ **QUAN TRỌNG**
 - UC-05: Xem Nguồn cấp dữ liệu Ảnh
 - UC-06: Xem Ảnh với Vị trí trên Bản đồ
@@ -745,6 +827,7 @@ title: Kịch Bản Sử Dụng
 - UC-28: Nhận Lời nhắc Ảnh Hàng ngày
 
 ### David (Người giám hộ lo lắng) - Các Kịch bản Sử dụng Chính
+
 - UC-02: Thiết lập Tài khoản Giám hộ ⭐ **QUAN TRỌNG**
 - UC-15: Đặt Giới hạn Thời gian Hàng ngày
 - UC-16: Lên lịch Thời gian Ngừng hoạt động
@@ -754,6 +837,7 @@ title: Kịch Bản Sử Dụng
 - UC-26: Thiết lập Chế độ Chỉ xem cho Người dùng Lớn tuổi
 
 ### Liam (Người chia sẻ Vibe độc lập) - Các Kịch bản Sử dụng Chính
+
 - UC-01: Đăng ký Tài khoản Người dùng
 - UC-04: Chụp và Gửi Ảnh
 - UC-09: Mời Bạn bè qua Liên kết
@@ -763,6 +847,7 @@ title: Kịch Bản Sử Dụng
 - UC-22: Xóa Tài khoản Vĩnh viễn
 
 ### Chloe (Người giữ Vibe xa cách) - Các Kịch bản Sử dụng Chính
+
 - UC-04: Chụp và Gửi Ảnh
 - UC-06: Xem Ảnh với Vị trí trên Bản đồ ⭐ **QUAN TRỌNG**
 - UC-12: Bật Chia sẻ Vị trí
@@ -770,12 +855,14 @@ title: Kịch Bản Sử Dụng
 - UC-30: Xử lý Lỗi Mạng trong khi Tải lên
 
 ### Sarah (Người thực thi buông tay) - Các Kịch bản Sử dụng Chính
+
 - UC-02: Thiết lập Tài khoản Giám hộ
 - UC-15: Đặt Giới hạn Thời gian Hàng ngày ⭐ **QUAN TRỌNG**
 - UC-18: Xem Báo cáo Hoạt động
 - UC-24: Đăng ký Tiện ích bổ sung Gia đình
 
 ### Bà Chen (Người quan sát thụ động) - Các Kịch bản Sử dụng Chính
+
 - UC-26: Thiết lập Chế độ Chỉ xem ⭐ **QUAN TRỌNG**
 - UC-27: Người dùng Lớn tuổi Kích hoạt SOS ⭐ **QUAN TRỌNG**
 
@@ -783,13 +870,13 @@ title: Kịch Bản Sử Dụng
 
 ## Ma trận Ưu tiên Phát triển
 
-| Ưu tiên | Các Kịch bản Sử dụng | Lý do |
-|:---|:---|:---|
-| **P0 (MVP - Bắt buộc Phải có)** | UC-01, UC-03, UC-04, UC-05, UC-08, UC-10, UC-20 | Chia sẻ ảnh cốt lõi + xác thực + tự động xóa |
-| **P1 (Beta - Nên có)** | UC-02, UC-06, UC-12, UC-15, UC-17, UC-18, UC-23 | Kiếm tiền Chế độ Giám hộ + tính năng vị trí |
-| **P2 (Ra mắt - Tốt nếu có)** | UC-07, UC-09, UC-11, UC-13, UC-14, UC-16, UC-19, UC-24, UC-25, UC-28 | UX nâng cao + tính năng duy trì |
-| **P3 (Giai đoạn 2 - Flutter)** | **UC-26, UC-27** | **Các tính năng moat Chế độ Chỉ xem** |
-| **P4 (Sau khi Ra mắt)** | UC-21, UC-22, UC-29, UC-30, UC-31 | Tuân thủ GDPR + các trường hợp đặc biệt |
+| Ưu tiên                         | Các Kịch bản Sử dụng                                                 | Lý do                                        |
+| :------------------------------ | :------------------------------------------------------------------- | :------------------------------------------- |
+| **P0 (MVP - Bắt buộc Phải có)** | UC-01, UC-03, UC-04, UC-05, UC-08, UC-10, UC-20                      | Chia sẻ ảnh cốt lõi + xác thực + tự động xóa |
+| **P1 (Beta - Nên có)**          | UC-02, UC-06, UC-12, UC-15, UC-17, UC-18, UC-23                      | Kiếm tiền Chế độ Giám hộ + tính năng vị trí  |
+| **P2 (Ra mắt - Tốt nếu có)**    | UC-07, UC-09, UC-11, UC-13, UC-14, UC-16, UC-19, UC-24, UC-25, UC-28 | UX nâng cao + tính năng duy trì              |
+| **P3 (Giai đoạn 2 - Flutter)**  | **UC-26, UC-27**                                                     | **Các tính năng moat Chế độ Chỉ xem**        |
+| **P4 (Sau khi Ra mắt)**         | UC-21, UC-22, UC-29, UC-30, UC-31                                    | Tuân thủ GDPR + các trường hợp đặc biệt      |
 
 ---
 

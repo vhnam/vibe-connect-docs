@@ -1,0 +1,45 @@
+---
+title: VibeConnect
+description: The real connections, the safe way.
+template: splash
+hero:
+  tagline: The real connections, the safe way.
+  image:
+    alt: "Logo"
+    file: ./../../../assets/logo.webp
+  actions:
+    - text: Explore
+      link: /en/description/
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+## Documentation Sections
+
+<CardGrid stagger>
+  <Card title="Product Overview" icon="star">
+    Learn about VibeConnect's core features and value proposition.
+    <br />
+    <a href="/en/description/">English</a> •{" "}
+    <a href="/vi/description/">Tiếng Việt</a>
+  </Card>
+  <Card title="Market Analysis" icon="chart">
+    Explore target markets, customer segments, and competitive positioning.
+    <br />
+    <a href="/en/target-market/">English</a> •{" "}
+    <a href="/vi/target-market/">Tiếng Việt</a>
+  </Card>
+  <Card title="User Research" icon="user">
+    Understand user personas, needs, and pain points.
+    <br />
+    <a href="/en/user-personas/">English</a> •{" "}
+    <a href="/vi/user-personas/">Tiếng Việt</a>
+  </Card>
+  <Card title="Product Strategy" icon="rocket">
+    Review use cases, value proposition, and product-market fit.
+    <br />
+    <a href="/en/use-cases/">English</a> •{" "}
+    <a href="/vi/use-cases/">Tiếng Việt</a>
+  </Card>
+</CardGrid>

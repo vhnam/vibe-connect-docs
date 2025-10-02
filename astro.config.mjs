@@ -1,10 +1,12 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import starlightThemeNova from "starlight-theme-nova";
 
 export default defineConfig({
   integrations: [
     starlight({
+      plugins: [starlightThemeNova()],
       title: "Vibe Connect",
       defaultLocale: "en",
       locales: {
@@ -21,37 +23,83 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/withastro/starlight",
+          href: "https://github.com/vhnam/vibe-connect-docs",
         },
       ],
       sidebar: [
         {
-          label: "Product Overview",
-          items: [{ label: "Description", slug: "description" }],
+          label: "Overview",
+          items: [
+            {
+              label: "Description",
+              slug: "description",
+              translations: { vi: "Mô tả" },
+            },
+          ],
+          translations: { vi: "Tổng quan" },
         },
         {
           label: "Market Analysis",
           items: [
-            { label: "Target Market", slug: "target-market" },
-            { label: "Segmentation", slug: "segmentation" },
+            {
+              label: "Target Market",
+              slug: "target-market",
+              translations: { vi: "Thị trường mục tiêu" },
+            },
+            {
+              label: "Segmentation",
+              slug: "segmentation",
+              translations: { vi: "Phân khúc thị trường" },
+            },
           ],
+          translations: { vi: "Phân tích thị trường" },
         },
         {
           label: "User Research",
           items: [
-            { label: "Target Customers", slug: "target-customers" },
-            { label: "User Personas", slug: "user-personas" },
-            { label: "User Needs", slug: "user-needs" },
-            { label: "Pain Points", slug: "pain-points" },
+            {
+              label: "Target Customers",
+              slug: "target-customers",
+              translations: { vi: "Khách hàng mục tiêu" },
+            },
+            {
+              label: "User Personas",
+              slug: "user-personas",
+              translations: { vi: "Chân dung người dùng" },
+            },
+            {
+              label: "User Needs",
+              slug: "user-needs",
+              translations: { vi: "Nhu cầu người dùng" },
+            },
+            {
+              label: "Pain Points",
+              slug: "pain-points",
+              translations: { vi: "Vấn đề gặp phải" },
+            },
           ],
+          translations: { vi: "Nghiên cứu người dùng" },
         },
         {
-          label: "Product Strategy",
+          label: "Strategy",
           items: [
-            { label: "Product-Market Fit", slug: "product-market-fit" },
-            { label: "Value Proposition", slug: "value-proposition" },
-            { label: "Use Cases", slug: "use-cases" },
+            {
+              label: "Product-Market Fit",
+              slug: "product-market-fit",
+              translations: { vi: "Phù hợp sản phẩm - thị trường" },
+            },
+            {
+              label: "Value Proposition",
+              slug: "value-proposition",
+              translations: { vi: "Giá trị mang lại" },
+            },
+            {
+              label: "Use Cases",
+              slug: "use-cases",
+              translations: { vi: "Tình huống sử dụng" },
+            },
           ],
+          translations: { vi: "Chiến lược" },
         },
       ],
     }),

@@ -2,56 +2,40 @@
 title: Mô tả
 ---
 
-# Mô tả Ứng dụng: VibeConnect
+Khoảnh khắc thật - kết nối thật.
 
-## Tiêu đề Phụ:
+### VibeConnect là gì?
 
-**Widget Ảnh Kèm Vị Trí Thật. Riêng Tư & An Toàn.**
+**VibeConnect** là ứng dụng widget chia sẻ ảnh đột phá, được thiết kế để kết nối bạn với **vòng tròn bạn bè thân thiết nhất** theo cách chân thật nhất. Gửi những khoảnh khắc thật, không chỉnh sửa, trực tiếp đến màn hình chính của nhau.
 
-## 1. Giới thiệu
+Điểm nổi bật khiến chúng tôi khác biệt: Chúng tôi là ứng dụng duy nhất kết hợp giữa việc chia sẻ ảnh tức thời đầy thú vị với **tính năng riêng tư hàng đầu và các công cụ an toàn mạnh mẽ dành cho phụ huynh.**
 
-**VibeConnect** là ứng dụng widget ảnh đột phá, được thiết kế để kết nối bạn với những người thân yêu theo cách chân thực nhất. Gửi ảnh trực tiếp từ camera đến màn hình chính của bạn bè **kèm theo thông tin vị trí thực tế**.
+### Tính năng Kết nối Chính
 
-Chúng tôi là ứng dụng duy nhất kết hợp niềm vui chia sẻ ảnh tức thì với các **tính năng bảo mật và kiểm soát của phụ huynh hàng đầu thế giới.**
+- **Widget trên Màn hình chính:** Xem ngay **"Vibe"** từ bạn bè! Ảnh được gửi trực tiếp tới widget trên màn hình chính, tạo ra trải nghiệm cá nhân và riêng tư thực sự.
+- **Chụp & Gửi Ngay:** Giao diện máy ảnh đơn giản, tối ưu để bạn có thể chụp và chia sẻ ảnh trong vài giây—**không bộ lọc, không chỉnh sửa, chỉ là khoảnh khắc thật.**
+- **Bản đồ Kết nối (Bản đồ Khoảnh khắc):** **Tính năng Độc quyền!** Ảnh từ bạn bè sẽ tự động được đánh dấu trên bản đồ, hiển thị chính xác nơi bức ảnh được chụp. Trải nghiệm sự kết nối sống động bằng cách biết được **địa điểm** đằng sau **vibe** đó.
 
----
+### Quyền riêng tư & Cam kết của chúng tôi
 
-## 2. Tính năng Cốt lõi
+Chúng tôi tin rằng sự chân thật phải luôn đi kèm với sự tin tưởng.
 
-### **Kết nối Vị trí, Tức thì, Riêng tư Tuyệt đối.**
+- **Bạn Sở Hữu Ảnh Của Mình:** **VibeConnect** cam kết bạn sở hữu 100% hình ảnh của mình. Chúng tôi **không bao giờ sử dụng, bán hoặc cấp phép ảnh của bạn** cho bất kỳ mục đích thương mại nào.
+- **Chia sẻ Vị trí là Tùy chọn:** Việc chia sẻ dữ liệu vị trí (qua EXIF) là **hoàn toàn tự nguyện** và có thể tắt bất cứ lúc nào. Vị trí chỉ hiển thị với vòng tròn bạn thân của bạn.
+- **Bảo mật Tối đa:** Ảnh và dữ liệu vị trí được **mã hóa đầu-cuối** và sẽ tự động bị xóa khỏi máy chủ của chúng tôi sau 48 giờ.
 
-- **Widget Màn hình chính:** Gửi ảnh thật, không qua chỉnh sửa, trực tiếp lên Widget màn hình chính của nhóm bạn thân (giới hạn 10-20 người) ngay khi bạn chụp.
-- **📍 Bản đồ Kết nối (Map of Moments):** **Tính năng độc quyền!** Tự động hiển thị vị trí (chính xác hoặc gần đúng) nơi tấm ảnh của bạn bè được chụp trên bản đồ cá nhân của bạn. Trải nghiệm kết nối vị trí sống động và biết chính xác những người thân yêu đang ở đâu.
-- **Camera Siêu Tốc:** Mở ứng dụng, chụp và gửi. Không lãng phí thời gian vào các bộ lọc phức tạp hay chỉnh sửa.
+### An toàn Vượt trội (Dành cho Phụ huynh)
 
-### 🔒 **Về Quyền riêng tư (Điểm Cạnh Tranh):**
+**VibeConnect** là ứng dụng chia sẻ ảnh được xây dựng với sự an toàn của gia đình bạn là ưu tiên hàng đầu.
 
-- **Bạn Sở hữu Ảnh Của Bạn:** Chúng tôi cam kết 100% hình ảnh thuộc về bạn. **VibeConnect** không bao giờ sử dụng, bán hoặc cấp phép hình ảnh của bạn cho bất kỳ mục đích thương mại nào.
-- **Quyền chia sẻ Vị trí (Opt-in):** Việc chia sẻ dữ liệu vị trí (từ EXIF) là **hoàn toàn tự nguyện** và có thể **tắt bất cứ lúc nào** trong cài đặt. Vị trí của bạn chỉ được chia sẻ với nhóm bạn bè thân thiết của bạn.
-- **Tự động Hủy & Mã hóa:** Ảnh và dữ liệu vị trí được mã hóa end-to-end, và sẽ tự động xóa khỏi máy chủ của chúng tôi sau 48 giờ.
+- **Giới hạn Thời gian Sử dụng:** Đặt giới hạn thời gian hàng ngày hoặc lịch trình **"ngừng hoạt động"**, giúp con bạn duy trì cân bằng giữa đời sống thực và hoạt động trực tuyến.
+- **Cảnh báo Từ khóa Nhanh:** Nhận cảnh báo theo thời gian thực nếu con bạn tương tác với từ khóa, biểu tượng cảm xúc, hoặc chú thích liên quan đến bắt nạt hoặc nội dung không phù hợp.
+- **Báo cáo Hoạt động & Vị trí:** Truy cập **Bảng điều khiển Phụ huynh** để xem tóm tắt quá trình sử dụng ứng dụng và thông báo về dữ liệu vị trí ảnh (nếu được bật).
 
----
+### Tải VibeConnect Ngay Hôm Nay!
 
-## 3. An toàn Vượt Trội
+Tham gia cộng đồng **VibeConnect** để trải nghiệm kết nối thân mật, thú vị và được bảo vệ.
 
-### **Ứng dụng Chia sẻ Ảnh Được Thiết Kế Cho Gia Đình.**
+**Tải miễn phí** và bắt đầu chia sẻ những khoảnh khắc chân thật nhất, cùng vị trí, với những người bạn thật sự quan trọng.
 
-Chúng tôi cung cấp các công cụ kiểm soát tùy chọn để đảm bảo sự an toàn cho người dùng nhỏ tuổi. Phụ huynh có thể an tâm cho con cái sử dụng.
-
-**Các Tính năng Dành cho Phụ huynh:**
-
-- **Giới hạn Thời gian Sử dụng:** Đặt giới hạn thời gian xem ảnh hàng ngày hoặc lên lịch "giờ nghỉ".
-- **Cảnh báo Từ khóa Nội dung:** Nhận cảnh báo theo thời gian thực nếu con bạn tương tác với các từ khóa hoặc biểu tượng cảm xúc nhạy cảm.
-- **Tổng quan Hoạt động & Vị trí:** Phụ huynh có thể xem các thông báo về vị trí chụp ảnh của con (nếu tính năng này được bật).
-
----
-
-## 4. Tải xuống Ngay Hôm Nay!
-
-Hãy tham gia **VibeConnect** để trải nghiệm sự kết nối chân thật, thú vị và được bảo vệ.
-
-**Tải xuống MIỄN PHÍ** và bắt đầu chia sẻ những khoảnh khắc sống động nhất với vòng tròn bạn bè thân thiết của bạn.
-
----
-
-_Lưu ý: Tính năng giám sát dành cho phụ huynh yêu cầu đăng ký Premium tùy chọn._
+**_(Lưu ý: Các tính năng Giám sát Phụ huynh nâng cao yêu cầu đăng ký gói Premium tùy chọn.)_**
