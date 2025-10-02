@@ -2,10 +2,6 @@
 title: Target Market
 ---
 
-# Target Market Analysis
-
-## Target Market Analysis for VibeConnect
-
 Identifying the precise target market is crucial for a uniquely hybrid app like **VibeConnect**. Your app targets not one, but **two distinct primary user groups** whose needs must both be met by the same product.
 
 ### 1. Primary Target Market: Gen Z Teens and Young Adults (Ages 16 - 24)
@@ -41,7 +37,7 @@ This group controls device usage and is the primary source of potential revenue 
 | **Marketing Channels** | TikTok, Instagram (visual short-form content), word-of-mouth.                                             | Google Search (keywords: _safe social media for teens_, _parental control app_), relevant parenting blogs/forums.                          |
 | **Product Focus**      | Highlighting **instantaneity**, **sleek design**, and the **unique Widget** placement on the home screen. | Emphasizing the **ease of setting up** monitoring features and the **transparency** of the alerts (focus on protection, not surveillance). |
 
-### Conclusion
+## Conclusion
 
 **VibeConnect's** success hinges on satisfying both groups:
 

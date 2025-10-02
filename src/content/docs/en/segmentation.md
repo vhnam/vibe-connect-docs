@@ -2,13 +2,9 @@
 title: Segmentation
 ---
 
-# Segmentation
-
 ## Market Segmentation for VibeConnect
 
 Segmentation is the process of dividing your large market into smaller, more homogeneous groups based on shared characteristics. For **VibeConnect**, segmentation must account for both identified target groups (Teens and Parents) to optimize product usage and revenue models.
-
----
 
 ### Segmentation 1: Core Users (Teens & Young Adults)
 
@@ -29,8 +25,6 @@ This segment drives content creation and daily app usage.
 | **Lifestyle**   | **Intimacy Seekers:** Prioritize connection _quality_ over _quantity_; highly value their small, close circle of friends. | Emphasize **privacy**, the **friend limit**, and the **connection map** as an exclusive feature for the inner circle. |
 | **Personality** | **Exploratory & Trend-Conscious:** Enjoy trying new apps, especially those that feel personal and define a social trend.  | Position VibeConnect as **"The next social trend"** for the closest friend group.                                     |
 
----
-
 ### Segmentation 2: Decision-Makers (Parents)
 
 This segment indirectly uses the app but is the potential source of revenue via Premium features.
@@ -48,8 +42,6 @@ This segment indirectly uses the app but is the potential source of revenue via 
 | :------------ | :------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------ |
 | **Attitudes** | **Technology-Anxious Parents:** Believe social media is necessary but fear the risks; seek **selective control solutions**.            | Position VibeConnect as a **harmonious solution** that meets both the child's social needs and the parent's safety needs. |
 | **Lifestyle** | **Balance Seekers:** Want their children to have healthy social lives but without device obsession (advocates for _Digital Wellness_). | Promote the **Usage Time Limit** feature as a tool for establishing healthy digital habits.                               |
-
----
 
 ## Segmentation Strategy Summary
 
