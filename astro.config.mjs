@@ -1,9 +1,11 @@
 // @ts-check
 import { defineConfig } from "astro/config";
+import sitemap from "@astrojs/sitemap";
 import starlight from "@astrojs/starlight";
 import starlightThemeNova from "starlight-theme-nova";
 
 export default defineConfig({
+  site: "http://localhost:4321",
   redirects: {
     "/": {
       status: 302,
@@ -11,6 +13,15 @@ export default defineConfig({
     },
   },
   integrations: [
+    sitemap({
+      i18n: {
+        defaultLocale: "en",
+        locales: {
+          en: "en",
+          vi: "vi",
+        },
+      },
+    }),
     starlight({
       plugins: [starlightThemeNova()],
       title: "Vibe Connect",
