@@ -2,11 +2,9 @@
 title: Nhu Cầu Người Dùng
 ---
 
-# Nhu cầu người dùng
-
 ## Nhu cầu dựa trên User Persona
 
-### User Needs 01: Maya – The Intimacy Seeker
+### User Needs 01: Maya – Người Tìm kiếm Sự Thân Mật
 
 | Loại Nhu cầu                     | Nhu cầu Cụ thể (User Needs)                                                                                                       | Tính năng Liên quan của VibeConnect                                                       |
 | :------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- |
@@ -18,7 +16,7 @@ title: Nhu Cầu Người Dùng
 |                                  | **Nhu cầu 6:** Cần một cách đơn giản để **xem lại** những kỷ niệm đã chia sẻ cùng nhóm.                                           | **Photo History/Archives:** Tính năng lưu trữ lịch sử ảnh.                                |
 | **V. Bảo mật & Kiểm soát**       | **Nhu cầu 7:** Cần sự đảm bảo rằng ảnh và thông tin của mình **không bị khai thác thương mại** hay bị theo dõi bởi người lạ.      | **Photo Ownership Guarantee** và **Tự động Xóa Ảnh** khỏi máy chủ.                        |
 
-## User Needs 02: David – The Anxious Guardian
+### User Needs 02: David – Phụ huynh Ưu tiên Sự An toàn
 
 | Loại Nhu cầu                 | Nhu cầu Cụ thể (User Needs)                                                                                                           | Tính năng Liên quan của VibeConnect                                                                       |
 | :--------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------- |
@@ -30,7 +28,7 @@ title: Nhu Cầu Người Dùng
 |                              | **Nhu cầu 6:** Cần sự đảm bảo rằng việc giám sát này là **không quá xâm phạm** để tránh làm tổn hại mối quan hệ với con.              | **Guardian Mode** là tùy chọn **Opt-in** và tập trung vào cảnh báo, không phải theo dõi nội dung cá nhân. |
 | **IV. Tài chính**            | **Nhu cầu 7:** Cần một **Mô hình đăng ký Premium** có giá trị rõ ràng, xứng đáng với chi phí bỏ ra cho sự an toàn của con.            | **Premium Subscription:** Gói dịch vụ cao cấp bao gồm tất cả các tính năng an toàn.                       |
 
-### User Needs 03: Liam – The Independent Vibe Sharer
+### User Needs 03: Liam – Người Chia sẻ Độc lập
 
 | Loại Nhu cầu                    | Nhu cầu Cụ thể (User Needs)                                                                                                                              | Tính năng Liên quan của VibeConnect                                                                                         |
 | :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
@@ -44,7 +42,7 @@ title: Nhu Cầu Người Dùng
 
 > Liam là người dùng sẽ đặt ra tiêu chuẩn cao nhất về quyền riêng tư. Việc đáp ứng nhu cầu của anh ấy sẽ đảm bảo tính toàn vẹn thương hiệu của VibeConnect.
 
-### User Needs 04: Sarah – The Hands-Off Enforcer
+### User Needs 04: Sarah – Phụ huynh Cân bằng
 
 | Loại Nhu cầu                         | Nhu cầu Cụ thể (User Needs)                                                                                                                                             | Tính năng Liên quan của VibeConnect                                                                                                   |
 | :----------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
@@ -55,7 +53,7 @@ title: Nhu Cầu Người Dùng
 | **III. Chi phí & Giá trị**           | **Nhu cầu 5:** Cần các tính năng đặt ranh giới cơ bản được cung cấp với chi phí thấp hoặc miễn phí (để không phải trả tiền cho các tính năng giám sát không cần thiết). | **Tiered Pricing:** Cung cấp gói Premium cơ bản với mức giá thấp hơn so với gói **Guardian Mode** đầy đủ của David.                   |
 | **IV. Sự tin cậy cơ bản**            | **Nhu cầu 6:** Cần sự đảm bảo rằng ứng dụng **VibeConnect** hoạt động đáng tin cậy khi thực thi các giới hạn đã đặt.                                                    | **Reliable Enforcement:** Tính năng giới hạn thời gian phải hoạt động hiệu quả và không thể bị con cái dễ dàng phá vỡ.                |
 
-### User Needs của Chloe – The Long-Distance Vibe Keeper
+### User Needs của Chloe – Người Giữ Vibe Xa Cách
 
 | Loại Nhu cầu                         | Nhu cầu Cụ thể (User Needs)                                                                                                                                       | Tính năng Liên quan của VibeConnect                                                                                                 |
 | :----------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
@@ -67,7 +65,7 @@ title: Nhu Cầu Người Dùng
 
 > Việc đáp ứng các nhu cầu này sẽ biến **VibeConnect** thành công cụ lý tưởng cho các mối quan hệ đường dài (Long-Distance Relationships) và du lịch, củng cố tính độc đáo của tính năng bản đồ.
 
-### User Needs 06: Grandma Chen - The Passive Observer
+### User Needs 06: Grandma Chen - Người Quan Sát Thụ Động
 
 | Lĩnh vực                           | Nhu cầu Cụ thể                                                                                                                                | Liên quan đến Sản phẩm                                                                                                                                                                       |
 | :--------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -78,7 +76,7 @@ title: Nhu Cầu Người Dùng
 
 > Grandma Chen là **Người Quan Sát Thụ Động (Passive Observer)**. Bà cần một giải pháp **đáng tin cậy, không cần bảo trì** để làm cho bà cảm thấy gần gũi với cuộc sống của gia đình mà **không cần học cách sử dụng công nghệ mới**.
 
-## 🚀 Tóm Tắt Nhu cầu Người dùng (User Needs) cho VibeConnect
+## Tóm Tắt Nhu cầu Người dùng cho VibeConnect
 
 | Lĩnh vực Tính năng                  | Nhu cầu Người dùng Cốt lõi                                                                                        | Persona Nhu cầu Cao nhất |
 | :---------------------------------- | :---------------------------------------------------------------------------------------------------------------- | :----------------------- |
@@ -105,7 +103,7 @@ title: Nhu Cầu Người Dùng
 |                                     | Cần các tính năng đặt ranh giới cơ bản (như Giới hạn Thời gian) được cung cấp với **chi phí thấp hoặc miễn phí**. | Sarah                    |
 |                                     | Cần một nút **Thông báo Khẩn cấp** (**SOS**) dễ dàng truy cập và sử dụng.                                         | **Grandma Chen**         |
 
-## 🎯 Kết luận Quan trọng cho Thiết kế
+## Kết luận Quan trọng cho Thiết kế
 
 1.  **Tính năng Bắt buộc (MVP):** **Tốc độ (I.1)** và **Widget (II.3)** phải là hai ưu tiên hàng đầu, vì chúng thỏa mãn nhu cầu cốt lõi của Maya.
 2.  **Lợi thế Cạnh tranh:** Sự kết hợp giữa **Tự động Xóa dữ liệu (III.1)**, **Cảnh báo Từ khóa (V.1)** và **Chế độ View-Only (II.4/I.3)** là điểm bán hàng độc đáo để thu hút Liam, David, và mở rộng sang phân khúc người lớn tuổi (Grandma Chen) cùng một lúc.

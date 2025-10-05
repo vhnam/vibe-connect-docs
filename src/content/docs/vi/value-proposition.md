@@ -2,17 +2,13 @@
 title: Tuyên Bố Giá Trị
 ---
 
-# Tài liệu Tuyên bố Giá trị (Value Proposition Document) của VibeConnect
-
-## Tuyên bố Cốt lõi (Core Statement)
+## Tuyên bố Cốt lõi
 
 **"VibeConnect: Ứng dụng chia sẻ thân mật duy nhất cân bằng **Tốc độ Chân thật** (cho teens) với **An toàn Có Giới hạn** (cho parents), đồng thời đảm bảo **Quyền Riêng tư Tuyệt đối** và **Kết nối Không Rào cản** cho mọi thành viên trong gia đình."**
 
 _VibeConnect được tin dùng bởi **`[CẦN INPUT: X]`** families và đạt **`[CẦN INPUT: Y%]`** retention sau 30 ngày._
 
----
-
-## 1. Phân tích Khách hàng (Customer Analysis)
+## Phân tích Khách hàng
 
 | Persona                      | JTBD (Việc cần làm)                                                                  | Nhu cầu Chưa Được Đáp Ứng (Pain Point)                              |
 | :--------------------------- | :----------------------------------------------------------------------------------- | :------------------------------------------------------------------ |
@@ -21,9 +17,7 @@ _VibeConnect được tin dùng bởi **`[CẦN INPUT: X]`** families và đạt
 | **Liam** (Độc lập)           | Muốn sử dụng social mà **tuyệt đối không bị lưu trữ** dữ liệu cá nhân dài hạn.       | Thiếu **niềm tin** vào các công ty công nghệ về quyền riêng tư.     |
 | **G. Chen** (Người lớn tuổi) | Muốn cảm nhận **sự hiện diện** của gia đình mà **không cần học** công nghệ mới.      | **Giao diện phức tạp** và rào cản tương tác.                        |
 
----
-
-## 2. Giải pháp & Lợi ích (Solution & Benefits)
+## Giải pháp & Lợi ích
 
 | Nhóm Giải pháp            | Tính năng Chính                                                        | Giá trị Cảm xúc (Why it Matters)                                               |
 | :------------------------ | :--------------------------------------------------------------------- | :----------------------------------------------------------------------------- |
@@ -32,9 +26,7 @@ _VibeConnect được tin dùng bởi **`[CẦN INPUT: X]`** families và đạt
 | **Đảm bảo Riêng tư**      | **Automatic Server Deletion** (Tự động xóa dữ liệu) sau 48-72 giờ.     | **Độc lập:** Người dùng cảm thấy được tôn trọng, không bị khai thác.           |
 | **Kết nối Không Rào cản** | **View-Only Mode** (Khung ảnh Kỹ thuật số) + **Nút SOS**.              | **Ấm áp:** Người lớn tuổi cảm thấy gần gũi với gia đình.                       |
 
----
-
-## 3. Giá trị Thu được vs. Giá Trả (Value vs. Price Justification)
+## Giá trị Thu được vs. Giá Trả
 
 | Gói               | Giá          | Giá trị Thu được Chính                      | ROI Cảm xúc                                                                              |
 | :---------------- | :----------- | :------------------------------------------ | :--------------------------------------------------------------------------------------- |
@@ -42,11 +34,9 @@ _VibeConnect được tin dùng bởi **`[CẦN INPUT: X]`** families và đạt
 | **Guardian Mode** | $9.99/tháng  | Peace of mind + Keyword alerts + Dashboard  | **David:** "Tôi trả $10 để ngủ ngon hơn? **Đáng giá tuyệt đối.**"                        |
 | **Family Add-on** | +$4.99/tháng | Grandma connection + SOS Button             | **Sarah:** "So với 1 chuyến thăm, $5/tháng là cách rẻ nhất để **giữ kết nối gia đình.**" |
 
----
+## Sự Khác Biệt & Vị thế Thị trường (Differentiation & Positioning)
 
-## 4. Sự Khác Biệt & Vị thế Thị trường (Differentiation & Positioning)
-
-### 4.1 Ma trận So sánh Cạnh tranh
+### Ma trận So sánh Cạnh tranh
 
 |                                  | **VibeConnect**         | BeReal                        | Life360                | Instagram              |
 | :------------------------------- | :---------------------- | :---------------------------- | :--------------------- | :--------------------- |
@@ -62,13 +52,11 @@ _VibeConnect được tin dùng bởi **`[CẦN INPUT: X]`** families và đạt
 - ⭐⭐⭐ = Industry average
 - ❌ = Feature không có
 
-### 4.2 Vị thế Chiến lược (Strategic Positioning)
+### Vị thế Chiến lược
 
 **Vị thế Thị trường:** BeReal và Life360 đang tập trung vào 2 thái cực (Tốc độ vs. An toàn). VibeConnect là ứng dụng đầu tiên chiếm giữ **"sweet spot"** ở giữa, chuyển đổi sự lựa chọn **Nhị phân** của thị trường thành một giải pháp **Cân bằng**, đồng thời mở rộng sang thị trường **Elderly Niche** mà cả hai đối thủ đều bỏ qua.
 
----
-
-## 5. Bằng chứng Hỗ trợ (Proof Points)
+## Bằng chứng Hỗ trợ
 
 **Tổng quan Beta Testing (Tháng 1-3):**
 
@@ -83,9 +71,7 @@ _VibeConnect được tin dùng bởi **`[CẦN INPUT: X]`** families và đạt
 | **"Quyền Riêng tư Tuyệt đối"** | **[Technical]:** Chính sách **Zero long-term data storage** được xác nhận bởi **`[CẦN INPUT: Technical Auditor/Security Firm]`**. |
 | **"Kết nối Không Rào cản"**    | **[User Feedback]:** **92%** người lớn tuổi sử dụng **View-Only Mode** không cần hỗ trợ kỹ thuật lần thứ hai.                     |
 
----
-
-## 6. Kịch bản Sử dụng (Use Cases)
+## Kịch bản Sử dụng
 
 ### 🎯 Use Case 1: Maya's Lunch Break (Tốc độ & Chân thật)
 
@@ -108,9 +94,7 @@ _VibeConnect được tin dùng bởi **`[CẦN INPUT: X]`** families và đạt
 - ✅ **Với VibeConnect:** Thiết lập **View-Only Mode** trên tablet. Bà chỉ cần nhìn màn hình để thấy ảnh Maya **cập nhật tự động** hàng ngày.
 - **Giá trị Thu được:** **Ấm áp + Zero learning curve.**
 
----
-
-## 7. Giải đáp Băn khoăn (Objection Handling)
+## Giải đáp Băn khoăn
 
 | Câu hỏi Thường gặp                                | Trả lời                                                                                                                                      |
 | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -118,13 +102,11 @@ _VibeConnect được tin dùng bởi **`[CẦN INPUT: X]`** families và đạt
 | **"Làm sao tôi biết data thực sự bị xóa?"**       | Chúng tôi cam kết **Auto-Delete** và sẽ publish deletion logs + **independent security audit** mỗi quý. [Link to Transparency Report].       |
 | **"Bà tôi 75 tuổi, liệu có dùng được?"**          | **View-Only Mode** không cần interaction. Chỉ cần bật màn hình là thấy ảnh. [92% success rate without support].                              |
 
----
+## Bước Tiếp theo
 
-## 8. Bước Tiếp theo (Call-to-Action)
-
-| Dành cho Persona             | Tuyên bố Hành động                                                               |
-| :--------------------------- | :------------------------------------------------------------------------------- |
-| **Maya (Teens)**             | → **"Download now. Share your first real moment in 15 seconds."**                |
-| **David (Parents)**          | → **"Try Guardian Mode free for 14 days. Get peace of mind today."**             |
-| **Liam (Privacy-conscious)** | → **"Read our Privacy Guarantee: Auto-delete after 48 hours. Zero exceptions."** |
-| **Family (với G. Chen)**     | → **"Setup View-Only Mode in 5 minutes. Bridge the technology gap instantly."**  |
+| Dành cho Persona             | Tuyên bố Hành động                                                                         |
+| :--------------------------- | :----------------------------------------------------------------------------------------- |
+| **Maya (Teens)**             | → **"Tải ngay. Chia sẻ khoảnh khắc thật đầu tiên trong 15 giây."**                         |
+| **David (Parents)**          | → **"Dùng thử Guardian Mode miễn phí 14 ngày. Có sự bình tâm ngay hôm nay."**              |
+| **Liam (Privacy-conscious)** | → **"Đọc Cam kết Riêng tư của chúng tôi: Tự động xóa sau 48 giờ. Không ngoại lệ."**        |
+| **Family (với G. Chen)**     | → **"Thiết lập View-Only Mode trong 5 phút. Kết nối khoảng cách công nghệ ngay lập tức."** |

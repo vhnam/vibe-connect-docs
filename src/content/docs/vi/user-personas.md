@@ -2,11 +2,9 @@
 title: Chân Dung Người Dùng
 ---
 
-# Chân dung người dùng
-
 ## Các đối tượng người dùng chính
 
-### Persona 1: MAYA – The Intimacy Seeker (Người Tìm kiếm Sự Thân Mật)
+### Persona 1: MAYA – Người Tìm kiếm Sự Thân Mật
 
 Maya đại diện cho nhóm người dùng sẽ quyết định _sử dụng_ và _yêu thích_ **VibeConnect**.
 
@@ -18,7 +16,7 @@ Maya đại diện cho nhóm người dùng sẽ quyết định _sử dụng_ v
 | **Hành vi**               | Cô ấy thích các ứng dụng cho phép tùy chỉnh màn hình chính và tạo ra cảm giác "độc quyền."                                                                     | Cô ấy sẽ là người chia sẻ VibeView và Location Map, đóng vai trò là người ảnh hưởng trong vòng bạn bè.             |
 | **Câu nói đặc trưng**     | _"Tớ chỉ muốn thấy bạn tớ đang làm gì ngay bây giờ, không phải cái ảnh họ đã chỉnh sửa cả tiếng đồng hồ rồi đăng lên."_                                        |                                                                                                                    |
 
-### Persona 2: DAVID – The Anxious Guardian (Phụ huynh Ưu tiên Sự An toàn)
+### Persona 2: DAVID – Phụ huynh Ưu tiên Sự An toàn
 
 David đại diện cho nhóm người dùng sẽ quyết định _trả tiền_ cho các tính năng an toàn, cho phép con cái của họ sử dụng ứng dụng.
 
@@ -30,7 +28,7 @@ David đại diện cho nhóm người dùng sẽ quyết định _trả tiền_
 | **Hành vi**               | Anh ấy sẽ tìm kiếm các giải pháp **"Cân bằng"** giữa sự tự do của con và sự kiểm soát của mình.                                                                           | Anh ấy sẽ mua **Guardian Mode** để đặt giới hạn thời gian và nhận báo cáo tóm tắt hàng tuần.                               |
 | **Câu nói đặc trưng**     | _"Tôi muốn con bé có một cuộc sống xã hội tốt, nhưng tôi cần sự an tâm rằng ứng dụng sẽ báo cho tôi nếu có bất kỳ điều gì thực sự tồi tệ xảy ra."_                        |                                                                                                                            |
 
-### Persona 3: LIAM – The Independent Vibe Sharer (Người Chia sẻ Độc lập)
+### Persona 3: LIAM – Người Chia sẻ Độc lập
 
 Liam đại diện cho nhóm người dùng lớn tuổi hơn (19+) — sinh viên đại học hoặc người mới đi làm — những người sử dụng ứng dụng vì tính độc đáo của nó nhưng **tuyệt đối không muốn bất kỳ hình thức giám sát nào**.
 
@@ -42,7 +40,7 @@ Liam đại diện cho nhóm người dùng lớn tuổi hơn (19+) — sinh vi�
 | **Giá trị tìm kiếm**        | **Sự tin cậy (Trust):** Cần một ứng dụng **không** phải là công cụ giám sát chính phủ/công ty.                                                                                                               | Tính năng phải hoạt động hoàn hảo và không bị lag; tính năng an toàn phải có thể **bỏ qua hoàn toàn**.                  |
 | **Hành vi với VibeConnect** | Anh ấy sẽ tải xuống ứng dụng vì Widget độc đáo, nhưng sẽ kiểm tra cài đặt quyền riêng tư ngay lập tức.                                                                                                       | Anh ta sẵn sàng chia sẻ **Vibe** và **Location** với bạn bè, nhưng không bao giờ với bên thứ ba.                        |
 
-### Persona 4: SARAH – The Hands-Off Enforcer (Phụ huynh Cân bằng)
+### Persona 4: SARAH – Phụ huynh Cân bằng
 
 Sarah đại diện cho nhóm phụ huynh không quá lo lắng và không muốn theo dõi con mình một cách chi tiết. Họ chỉ cần các công cụ để **đặt ra ranh giới** và **thiết lập thói quen lành mạnh**. Persona này giúp định hình các tính năng trong **gói Miễn phí hoặc gói Premium cơ bản** của bạn.
 
@@ -54,7 +52,7 @@ Sarah đại diện cho nhóm phụ huynh không quá lo lắng và không muố
 | **Giá trị tìm kiếm**        | **Sự tin cậy cơ bản:** Tin tưởng vào phán đoán của con nhưng cần một công cụ để thực thi luật lệ gia đình.                                             | Gói Premium cần có một lựa chọn **"Chỉ Giới hạn Thời gian"** với mức giá thấp hơn.                                    |
 | **Hành vi với VibeConnect** | Cô ấy sẽ liên kết tài khoản nhưng chỉ bật **Giới hạn Thời gian Sử dụng** và xem **Báo cáo Hoạt động** tổng hợp hàng tuần.                              |                                                                                                                       |
 
-## Persona 5: CHLOE – The Long-Distance Vibe Keeper (Người Giữ Vibe Xa Cách)
+### Persona 5: CHLOE – Người Giữ Vibe Xa Cách
 
 Chloe đại diện cho những người dùng có nhu cầu đặc biệt về **kết nối địa lý** (Location Connection). Cô ấy sử dụng ứng dụng không chỉ để chia sẻ sự thân mật mà còn để **khắc phục khoảng cách địa lý.**
 
@@ -66,7 +64,7 @@ Chloe đại diện cho những người dùng có nhu cầu đặc biệt về 
 | **Giá trị tìm kiếm**        | **Sự đồng bộ (Synchronicity):** Muốn cảm nhận được "Vibe" của bạn bè một cách tự nhiên, giống như đang ở gần họ.                                                               | Cần một tính năng bản đồ hoạt động trơn tru với cả các múi giờ và địa điểm quốc tế.                             |
 | **Hành vi với VibeConnect** | Cô ấy sẽ thường xuyên sử dụng **VibeConnect** như một "cửa sổ" để nhìn vào cuộc sống của bạn bè, và cũng sử dụng nó để chia sẻ nhanh các địa điểm thú vị cô ấy ghé thăm.       |                                                                                                                 |
 
-## Persona 6: GRANDMA CHEN – The Passive Observer (Người Quan Sát Thụ Động)
+### Persona 6: GRANDMA CHEN – Người Quan Sát Thụ Động
 
 Grandma Chen đại diện cho nhóm người muốn duy trì kết nối thân mật với gia đình mà không cần tương tác phức tạp. Persona này củng cố tính năng **View-Only** và **khả năng mở rộng sản phẩm** (product extensibility) của VibeConnect.
 

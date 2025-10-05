@@ -33,7 +33,7 @@ Nhóm này kiểm soát việc sử dụng thiết bị và là nguồn doanh th
 
 | Chiến lược             | Nhắm đến: Teen (Gen Z)                                                                                | Nhắm đến: Phụ huynh                                                                                                                   |
 | :--------------------- | :---------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
-| **Thông điệp chính**   | **"Khoảnh khắc thật - kết nối thật."**                                                                     | **"Ứng dụng mạng xã hội yêu thích của con bạn – được xây dựng với tiêu chuẩn an toàn cho gia đình."**                                 |
+| **Thông điệp chính**   | **"Khoảnh khắc thật - kết nối thật."**                                                                | **"Ứng dụng mạng xã hội yêu thích của con bạn – được xây dựng với tiêu chuẩn an toàn cho gia đình."**                                 |
 | **Kênh Marketing**     | TikTok, Instagram (nội dung ngắn dạng hình ảnh/video), truyền miệng.                                  | Google Search (từ khóa: _mạng xã hội an toàn cho thiếu niên_, _ứng dụng kiểm soát của cha mẹ_), các blog/diễn đàn dành cho phụ huynh. |
 | **Trọng tâm sản phẩm** | Làm nổi bật sự **tức thời**, **thiết kế hiện đại**, và **vị trí Widget độc đáo** trên màn hình chính. | Nhấn mạnh **tính dễ thiết lập** các tính năng giám sát và **tính minh bạch** của các cảnh báo (tập trung vào bảo vệ, không giám sát). |
 

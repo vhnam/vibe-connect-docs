@@ -2,15 +2,7 @@
 title: Target Customers
 ---
 
-# Target Customers
-
-## Target Customers: VibeConnect
-
-Identifying your Target Customers means pinpointing the specific individuals who will primarily **use** your product and those who will **pay** for your product. For **VibeConnect**, you have two distinct personas:
-
----
-
-## 1. The Core User: The Intimacy Seeker
+## The Core User: The Intimacy Seeker
 
 This persona drives daily usage, content creation, and word-of-mouth adoption of **VibeConnect**.
 
@@ -22,9 +14,7 @@ This persona drives daily usage, content creation, and word-of-mouth adoption of
 | **Value Sought**         | **Exclusivity:** They prioritize quality connection within a small, curated circle. **Spontaneity:** They enjoy the surprise element of the Widget and instant photos.           |
 | **VibeConnect Behavior** | They use the Widget as a natural extension of their social life; they use the **Location Connection Map** as a way to feel physically closer to friends, regardless of distance. |
 
----
-
-## 2. The Paying Customer: The Anxious Guardian
+## The Paying Customer: The Anxious Guardian
 
 This persona controls the purchase decision and is the primary source of recurring revenue via Premium subscriptions.
 

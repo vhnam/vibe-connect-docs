@@ -2,9 +2,7 @@
 title: Khách Hàng Mục Tiêu
 ---
 
-# Khách hàng Mục tiêu
-
-## 1. Người Dùng Cốt Lõi: The Intimacy Seeker (Người Tìm kiếm Sự Thân Mật)
+## Người Dùng Cốt Lõi: Người Tìm kiếm Sự Thân Mật
 
 Đây là những người trực tiếp tải xuống, sử dụng hàng ngày và giới thiệu **VibeConnect** cho bạn bè của họ.
 
@@ -18,7 +16,7 @@ title: Khách Hàng Mục Tiêu
 
 ---
 
-## 2. Khách hàng Trả Tiền: The Anxious Guardian (Phụ huynh Ưu tiên Sự An toàn)
+## Khách hàng Trả Tiền: Phụ huynh Ưu tiên Sự An toàn
 
 Đây là những người sẽ ra quyết định tài chính và mua các gói Premium của bạn.
 

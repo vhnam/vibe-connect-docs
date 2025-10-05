@@ -2,8 +2,6 @@
 title: Use Needs
 ---
 
-# User Needs
-
 ## User Needs based on User Personas
 
 ### User Needs 01: Maya – The Intimacy Seeker
@@ -78,7 +76,7 @@ title: Use Needs
 
 > Grandma Chen is the **Passive Observer**. She needs a **reliable, zero-maintenance** solution to make her feel close to her family's life **without having to learn new technology**.
 
-## 🚀 User Needs Summary for VibeConnect
+## User Needs Summary for VibeConnect
 
 | Feature Area                      | Core User Need                                                                                             | Highest Need Persona |
 | :-------------------------------- | :--------------------------------------------------------------------------------------------------------- | :------------------- |
@@ -105,7 +103,7 @@ title: Use Needs
 |                                   | Needs basic boundary-setting features (like Time Limits) to be offered at a **low or no cost**.            | Sarah                |
 |                                   | Needs an easily accessible **Emergency Notification** (**SOS**) button.                                    | **Grandma Chen**     |
 
-## 🎯 Key Design Conclusions
+## Key Design Conclusions
 
 1.  **Must-Have Features (MVP):** **Speed (I.1)** and the **Widget (II.3)** must be the top two priorities, as they satisfy Maya's core needs.
 2.  **Competitive Advantage:** The combination of **Automatic Data Deletion (III.1)**, **Keyword Alerts (V.1)**, and **View-Only Mode (II.4/I.3)** is a unique selling point to attract Liam, David, and expand to the elderly segment (Grandma Chen) simultaneously.

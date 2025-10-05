@@ -2,8 +2,6 @@
 title: User Personas
 ---
 
-# User Personas
-
 ## Primary User Segments
 
 ### Persona 1: MAYA – The Intimacy Seeker
@@ -54,7 +52,7 @@ Sarah represents the group of parents who are not overly anxious and do not want
 | **Value Sought**              | **Basic Trust:** Trusts her child's judgment but needs a tool to enforce family rules.                                                                                     | The Premium package needs a **"Time Limit Only"** option at a lower price point.                                     |
 | **Behavior with VibeConnect** | She will link the account but only enable **Screen Time** and view the weekly summary **Activity Report**.                                                                 |                                                                                                                      |
 
-## Persona 5: CHLOE – The Long-Distance Vibe Keeper
+### Persona 5: CHLOE – The Long-Distance Vibe Keeper
 
 Chloe represents users with a special need for **geographical connection** (Location Connection). She uses the app not just to share intimacy but also to **overcome physical distance.**
 
@@ -66,7 +64,7 @@ Chloe represents users with a special need for **geographical connection** (Loca
 | **Value Sought**              | **Synchronicity:** Wants to naturally feel the friends' "Vibe," just as if she were near them.                                                                   | Needs a map feature that works smoothly with international time zones and locations.          |
 | **Behavior with VibeConnect** | She will frequently use **VibeConnect** as a "window" into her friends' lives, and also use it to quickly share interesting places she visits.                   |                                                                                               |
 
-## Persona 6: GRANDMA CHEN – The Passive Observer
+### Persona 6: GRANDMA CHEN – The Passive Observer
 
 Grandma Chen represents the group who want to maintain intimate connection with family without complex interaction. This Persona reinforces the **View-Only** feature and **product extensibility** of VibeConnect.
 
