@@ -26,6 +26,10 @@ export default defineConfig({
       plugins: [starlightThemeNova()],
       title: "Vibe Connect",
       defaultLocale: "en",
+      logo: {
+        src: "./src/assets/logo.webp",
+        alt: "Logo",
+      },
       locales: {
         en: {
           label: "English",
